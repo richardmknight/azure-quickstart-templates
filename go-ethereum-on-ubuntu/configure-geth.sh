@@ -42,8 +42,7 @@ time sudo apt-get install solc -y
 
 # Fetch Genesis and Private Key
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-ethereum-on-ubuntu/start-private-blockchain.sh
-wget https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-ethereum-on-ubuntu/GuestBook.sol
+wget https://raw.githubusercontent.com/richardmknight/azure-quickstart-templates/master/go-ethereum-on-ubuntu/start-private-blockchain.sh
 
 date
 geth init
